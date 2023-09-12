@@ -270,3 +270,8 @@ span.nm-label-itsnew.onsale {
     font-weight: 600;
     border-radius: 0px;
 }
+
+input#shipping_address_map_search_input,
+input#billing_address_map_search_input {
+    width: 100%;
+}
