@@ -1,0 +1,272 @@
+/*  Hides  */
+.product .single_variation {
+    border-bottom: 1px solid #dadada
+}
+
+.nm-quantity-wrap .quantity {
+    display: none;
+}
+
+/*  Hides quantity selection 
+.nm-quantity-wrap {
+	display:none;
+}*/
+
+.wc-pao-addons-container {
+    padding: 10px 10px 0px 10px;
+    margin-top: 30px;
+}
+
+.wc-pao-addon .wc-pao-addon-description {
+    font-style: normal;
+}
+
+.wc-pao-addons-container {
+    border: 1px solid #dadada;
+}
+
+.wc-pao-addon-file-upload.input-text.wc-pao-addon-field {
+    border: none;
+}
+
+button #file-upload-button {
+    background-color: red !important;
+    color: white !important;
+}
+
+div.wc-pao-col1 strong {
+    font-weight: lighter;
+}
+
+.wcpv-sold-by-loop {
+    visibility: hidden;
+}
+
+/* Defines font style for product description on product page */
+.woocommerce-product-details__short-description {
+    font-size: 18px;
+}
+
+.nm-variable-add-to-cart-button,
+single_add_to_cart_button button alt {
+    background-color: #0071e3;
+}
+
+.nm-variable-add-to-cart-button.single_add_to_cart_button.button.alt.disabled.wc-variation-selection-needed {
+    background-color: black;
+}
+
+.woocommerce-loop-product__title {
+    font-weight: 500 !important;
+}
+
+/* HIDDING ITEMS SECTIONS */
+
+/* hiddes price on shop page */
+.products .price {
+    visibility: hidden;
+}
+
+error wppb-serial-notification {
+    display: none;
+}
+
+div.error wppb-serial-notification {
+    display: none;
+}
+
+/* Hides vendor name from product page */
+.wcpv-sold-by-single {
+    display: none;
+}
+
+/* Hides vendor name from product page */
+
+/* Hides vendor name from cart panel */
+div.variation-SoldBy {
+    display: none !important;
+}
+
+/* Hides price on product page */
+p.price {
+    visibility: hidden;
+}
+
+/* hides subtotal on cart panel */
+
+p.woocommerce-mini-cart__total.total,
+.nm-cart-panel-item-price {
+    visibility: hidden;
+}
+
+/* hides prices on subtotal screen */
+
+.nm-checkout-product-total.product-total {
+    visibility: hidden;
+}
+
+/* hides prices on cart page 
+tr.cart-subtotal, .woocommerce-shipping-totals.shipping, tr.order-total {
+	display:none;
+}*/
+
+/* hides SUBTOTAL TOTAL message on cart page */
+div.cart-collaterals h2 {
+    display: none;
+}
+
+/* hides prices on cart page */
+.product-price,
+.product-subtotal {
+    visibility: hidden;
+}
+
+/* "proceed to checkout" button color on cart page */
+.wc-proceed-to-checkout .button {
+    background-color: #283282
+}
+
+
+/* hides price box on variation price */
+.product .single_variation {
+    border-color: #EEEEEE;
+}
+
+/* hides price on variation */
+.woocommerce-variation-price {
+    display: none;
+}
+
+/* disable hand on shipping method */
+#shipping_method label {
+    cursor: inherit;
+}
+
+/*hides original QTY box
+div.quantity 	IF DESIRED{
+	display:none!important;
+}
+*/
+
+/*  Hides Vendor off from Thank you Page  */
+em.wcpv-sold-by-order-details {
+    display: none;
+}
+
+/* hides Country / Region label on checkout page */
+p.form-row.form-row-wide.address-field.update_totals_on_change.validate-required {
+    display: none;
+}
+
+/* changes color on: its new label & badge */
+.nm-label-itsnew {
+    background-color: darkblue;
+}
+
+/* Filter button style */
+li.nm-shop-filter-btn-wrap {
+    background: white;
+    border: 2px solid gray;
+    color: black;
+    padding-right: 13px;
+    border-radius: 50px;
+    padding-top: 4px;
+}
+
+/* "Cart updated" message color */
+.nm-shop-notice span {
+    padding: 10px;
+    background-color: #03C126;
+    color: white;
+    border-radius: 23px;
+}
+
+/* shadow on header */
+header#nm-header.nm-header.default.resize-on-scroll.clear {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+/*video fit */
+div.e-hosted-video.elementor-wrapper.elementor-open-inline {
+    aspect-ratio: unset !important;
+}
+
+video.elementor-background-video-hosted.elementor-html5-video {
+    object-fit: scale-down;
+}
+
+/*WHITE ALL ITEM BACKGROUND*/
+.nm-shop-loop-thumbnail a {
+    background-color: white;
+}
+
+/* VIDEO PLAYT BUTTON*/
+.nm-featured-video-icon {
+    color: white;
+    background: red;
+    border-radius: 10px !important;
+}
+
+/*out of stock alert*/
+.product .summary .stock.out-of-stock {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: 1px solid lightgray !important;
+    box-shadow: 0px 3px 3px lightgray;
+}
+
+/*variation message*/
+.product .single_variation {
+    padding: 0px;
+    background-color: white !important;
+    margin-top: 30px;
+    font-size: 12px;
+    border: 1px solid lightgray;
+}
+
+/*variation selection*/
+li.nm-variation-option.selected {
+    color: white;
+    background-color: #0071E3;
+    border: 0;
+    padding: 2px
+}
+
+/*hide minus or plus arrows*/
+div.nm-qty-minus.nm-font.nm-font-media-play.flip,
+div.nm-qty-us.nm-font.nm-font-media-play.flip {
+    display: none;
+}
+
+div.nm-qty-plus.nm-font.nm-font-media-play {
+    display: none;
+}
+
+/* deletes white bg on image "show more" */
+#nm-quickview-slider img {
+    background-color: white;
+}
+
+div.slick-track {
+    background-color: white !important;
+}
+
+/* low in stock alert */
+p.stock.in-stock::before {
+    content: 'Almost gone ';
+    font-weight: 600
+}
+
+.product .summary .stock.in-stock {
+    background-color: #ff006a;
+}
+
+/* NEW LABEL */
+span.nm-label-itsnew.onsale {
+    background-color: white;
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0px;
+}
