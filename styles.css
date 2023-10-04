@@ -49,7 +49,7 @@ div.wc-pao-col1 strong {
 
 .nm-variable-add-to-cart-button,
 single_add_to_cart_button button alt {
-    background-color: #0071e3;
+    background-color: #07A2E6;
 }
 
 .nm-variable-add-to-cart-button.single_add_to_cart_button.button.alt.disabled.wc-variation-selection-needed {
@@ -62,10 +62,7 @@ single_add_to_cart_button button alt {
 
 /* HIDDING ITEMS SECTIONS */
 
-/* hiddes price on shop page */
-.products .price {
-    visibility: hidden;
-}
+
 
 error wppb-serial-notification {
     display: none;
@@ -77,7 +74,7 @@ div.error wppb-serial-notification {
 
 /* Hides vendor name from product page */
 .wcpv-sold-by-single {
-    display: none;
+    display: none !important;
 }
 
 /* Hides vendor name from product page */
@@ -87,39 +84,13 @@ div.variation-SoldBy {
     display: none !important;
 }
 
-/* Hides price on product page */
-p.price {
-    visibility: hidden;
-}
 
-/* hides subtotal on cart panel */
-
-p.woocommerce-mini-cart__total.total,
-.nm-cart-panel-item-price {
-    visibility: hidden;
-}
-
-/* hides prices on subtotal screen */
-
-.nm-checkout-product-total.product-total {
-    visibility: hidden;
-}
-
-/* hides prices on cart page 
-tr.cart-subtotal, .woocommerce-shipping-totals.shipping, tr.order-total {
-	display:none;
-}*/
 
 /* hides SUBTOTAL TOTAL message on cart page */
 div.cart-collaterals h2 {
     display: none;
 }
 
-/* hides prices on cart page */
-.product-price,
-.product-subtotal {
-    visibility: hidden;
-}
 
 /* "proceed to checkout" button color on cart page */
 .wc-proceed-to-checkout .button {
@@ -127,15 +98,7 @@ div.cart-collaterals h2 {
 }
 
 
-/* hides price box on variation price */
-.product .single_variation {
-    border-color: #EEEEEE;
-}
 
-/* hides price on variation */
-.woocommerce-variation-price {
-    display: none;
-}
 
 /* disable hand on shipping method */
 #shipping_method label {
@@ -150,6 +113,10 @@ div.quantity 	IF DESIRED{
 
 /*  Hides Vendor off from Thank you Page  */
 em.wcpv-sold-by-order-details {
+    display: none;
+}
+
+em.button.checkout wc-forward {
     display: none;
 }
 
@@ -173,12 +140,11 @@ li.nm-shop-filter-btn-wrap {
     padding-top: 4px;
 }
 
-/* "Cart updated" message color */
+/* "Cart updated" message color || SHOP NOTICE*/
 .nm-shop-notice span {
-    padding: 10px;
-    background-color: #03C126;
-    color: white;
-    border-radius: 23px;
+    padding: 10px 20px 10px 20px !important;
+    color: black;
+    border: 1px solid #07A2E6;
 }
 
 /* shadow on header */
@@ -267,7 +233,39 @@ input#billing_address_map_search_input {
     width: 100%;
 }
 
+/* placer order button colors */
 button.nm-simple-add-to-cart-button,
 #place_order {
-    background-color: #07A2E6 !important;
+    background-color: #07a2e6 !important;
+}
+
+/* delivery time right position */
+input#billing_delivery_time {
+    position: relative;
+    right: -1%;
+}
+
+/*check form fields titles bold*/
+div.woocommerce-billing-fields label {
+    font-weight: bold
+}
+
+/* Hides ACCOUNT DETAILS on profile to avoid password changes & CONTRIBUTIONS BUTTONS/FEATS.*/
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-account a {
+    display: none !important;
+}
+
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-account a,
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--contributions a {
+    display: none !important;
+}
+
+/*  */
+div.woocommerce-privacy-policy-text {
+    display: none;
+}
+
+/* fixes width on 100+ items quiantity */
+input#quantity_651dcf097d0eb.input-text.qty.text {
+    width: fit-content;
 }
