@@ -265,10 +265,93 @@ div.woocommerce-privacy-policy-text {
     display: none;
 }
 
-/* fixes width on 100+ items quiantity */
-input#quantity_651dcf097d0eb.input-text.qty.text {
-    width: fit-content;
+/* fixes width on 100+ items quantity */
+#nm-widget-panel .quantity .qty {
+    width: 27px !important;
 }
 
+/*
+table.variations td.value, table.variations th.label {
+	border:none;
+	background-color:#F7F7F7;
+*/
+}
 
+tr.woocommerce-shipping-totals.shipping {
+    display: none !important;
+}
 
+/*deletes access to account details in accoutn page*/
+div.nm-MyAccount-dashboard p {
+    display: none;
+}
+
+/*quantities table*/
+table.cantidades {
+    font-size: small;
+    width: max-content;
+}
+
+table.cantidades th {
+    border-color: lightgray;
+    background-color: #EFEFEF;
+    text-align: center;
+}
+
+/*disables billing filling fields*/
+p.form-row.form-row-first.thwcfd-field-wrapper.thwcfd-field-text.validate-required {
+    pointer-events: none;
+}
+
+p.form-row.form-row-last.thwcfd-field-wrapper.thwcfd-field-text.validate-required {
+    pointer-events: none;
+}
+
+p.form-row.address-field.thwcfd-field-wrapper.thwcfd-field-text.validate-required.validate-postcode.form-row-wide {
+    pointer-events: none;
+}
+
+p.form-row.address-field.thwcfd-field-wrapper.thwcfd-field-text.validate-required.form-row-wide {
+    pointer-events: none;
+}
+
+p.form-row.address-field.thwcfd-field-wrapper.thwcfd-field-text.validate-required.form-row-wide {
+    pointer-events: none;
+}
+
+p.form-row.address-field.thwcfd-field-wrapper.thwcfd-field-state.validate-required.validate-state.form-row-wide {
+    pointer-events: none;
+}
+
+p.form-row.form-row-wide.thwcfd-field-wrapper.thwcfd-field-email.validate-required.validate-email {
+    pointer-events: none;
+}
+
+li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-address {
+    display: none;
+}
+
+/* Fix top margin at missing item warning message */
+div.woocommerce p {
+    padding-top: 30px;
+}
+
+.nm-widget-panel-close-title {
+    padding-top: 17px;
+}
+
+.wcpa_checkbox input[type=checkbox]:checked+label .wcpa_check {
+    background: #027DD6 !important;
+    border: 2px solid #027DD6 !important;
+}
+
+/* gives border to units selection boxes*/
+.nm-variation-control.nm-variation-control-size li span {
+    border: 1px solid #1a73e8;
+    border-radius: 20px;
+}
+
+/*color variations as thumbnails on front page*/
+.attributes-position-thumbnail .nm-shop-loop-attributes {
+    visibility: hidden;
+}
